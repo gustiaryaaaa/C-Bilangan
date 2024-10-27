@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Panjang dan Lebar Segitiga
+    int panjang = 20;
+    int tinggi = 50;
+
+    // Rumus Luas Segitiga
+    int hasil = 0.5 * panjang * tinggi;
+
+    // Menampilkan hasil rumus
+    cout << "Rumus Menghitung Luas Segitiga adalah 0,5 x Panjang x Tinggi" << endl;
+    cout << "Panjang alas = " << panjang << " cm" << endl;
+    cout << "Tinggi = " << tinggi << " cm" << endl;
+    cout << "Luas segitiga = " << hasil << " cm" << endl;
+
+
+    return 0;
+}
